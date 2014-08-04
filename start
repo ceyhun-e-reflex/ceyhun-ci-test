@@ -3,8 +3,8 @@
 # Invoke the Forever module (to START our Node.js server).
 NODE_ENV=production PORT=3016 forever \
     start \
-    -al forever-mca.log \
-    -ao out-mca.log \
-    -ae err-mca.log \
-    --uid mca \
+    -al forever-ceyhun-ci-test.log \
+    -ao out-ceyhun-ci-test.log \
+    -ae err-ceyhun-ci-test.log \
+    --uid ceyhun-ci-test \
     app.js
